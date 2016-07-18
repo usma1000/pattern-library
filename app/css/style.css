@@ -1,0 +1,217 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+#main-nav {
+  background-color: #0a304e;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  box-shadow: 0px 1px 1px 0px rgba(44, 54, 67, 0.2);
+}
+
+#main-nav .nav-container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-nav .nav-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+#main-nav .nav-container img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+}
+
+#main-nav .nav-container img:last-child {
+  margin-right: 0;
+}
+
+#main-nav .nav-container nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  margin-top: 25px;
+}
+
+#main-nav .nav-container nav:last-child {
+  margin-right: 0;
+}
+
+#main-nav .nav-container nav a {
+  color: #bfbfbf;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#main-nav .nav-container nav a.active, #main-nav .nav-container nav a:hover {
+  color: #fff;
+  background-color: #092b46;
+  border-bottom: 3px solid #fff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.color-palette {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 4px !important;
+  box-shadow: 0px 1px 1px 0px rgba(44, 54, 67, 0.2);
+}
+
+.color-palette:hover {
+  box-shadow: 0px 2px 4px 1px rgba(44, 54, 67, 0.3);
+}
+
+.color-palette.blue-palette {
+  background-color: #0a304e;
+}
+
+.color-palette.gray-palette {
+  background-color: #626262;
+}
+
+.color-palette.default-palette {
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+.color-palette.white-palette {
+  background-color: #fff;
+  color: #000;
+}
+
+.color-palette.black-palette {
+  background-color: #000;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+aside#pattern-sidebar {
+  width: 200px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+aside#pattern-sidebar span {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #0a304e;
+  display: block;
+  margin-bottom: 10px;
+}
+
+aside#pattern-sidebar ul {
+  padding: 0;
+}
+
+aside#pattern-sidebar ul li {
+  list-style: none;
+  line-height: 1.8em;
+}
+
+body {
+  font: Helvetica, sans-serif;
+  color: #666;
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+.contain-me {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contain-me::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+main .pattern-header {
+  font-size: 20px;
+  padding: 10px 15px 5px 15px;
+  background-color: #0a304e;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+main section.pattern-section {
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+main section.pattern-section pre {
+  max-height: 800px;
+  min-height: 62px;
+  font-size: 0.5em;
+}
+
+.display-box {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.display-box:before {
+  content: "Example:";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  display: block;
+  font-size: 14px;
+}
+
+.copytoclipboard.btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  background-color: #FEDD29;
+  padding: 4px 10px;
+  margin-right: 15px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.copytoclipboard.btn:hover {
+  background-color: #e5c725;
+}

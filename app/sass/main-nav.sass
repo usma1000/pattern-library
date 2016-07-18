@@ -1,0 +1,25 @@
+@import "bourbon"
+@import "neat"
+@import "variables"
+
+#main-nav
+	background-color: $primary-color
+	margin-bottom: 20px
+	padding-top: 10px
+	box-shadow: $box-shadow
+	.nav-container
+		@include outer-container
+		img
+			@include span-columns(3)
+		nav
+			@include span-columns(9)
+			margin-top: 25px
+			a
+				color: shade(#fff, 25%)
+				text-decoration: none
+				text-align: center
+				padding: 10px 20px
+				&.active, &:hover
+					color: #fff
+					background-color: shade($primary-color, 10%)
+					border-bottom: 3px solid #fff

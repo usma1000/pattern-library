@@ -1,0 +1,633 @@
+/**********************************************
+***********************************************
+PDF File Type Icons
+***********************************************
+**********************************************/
+a[href$=".pdf"]:after {
+  content: '\f1c1';
+  color: #cc080a !important;
+  padding-left:3px;
+  padding-right:2px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+a[href$=".pdf"][data-size]:after {
+  content: "(" attr(data-size) ")";
+  color: inherit !important;
+  padding-left:3px;
+  font: normal normal normal 'Titillium Web', Helvetica, Arial, sans-serif;
+}
+*/
+a.btn[href$=".pdf"]:before {
+  content: '\f1c1';
+  color: #ffffff !important;
+  padding-right:5px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn.white[href$=".pdf"]:before,
+a.btn.default[href$=".pdf"]:before,
+a.btn.gray-light[href$=".pdf"]:before {
+  color: #cc080a !important;
+}
+.carousel-caption a[href$=".pdf"]:after {
+  color: #ffffff !important;
+  padding-left:5px;
+}
+.white .carousel-caption a[href$=".pdf"]:after {
+  color: #cc080a !important;
+  padding-right:5px;
+}
+ul li.list-group-item a[href$=".pdf"]:after,
+.page-sidebar a[href$=".pdf"]:after,
+a.btn[href$=".pdf"]:after {
+  content: "";
+  padding-left:0;
+}
+/**********************************************
+***********************************************
+Word File Type Icons
+***********************************************
+**********************************************/
+a[href$=".odt"]:after,
+a[href$=".fodt"]:after,
+a[href$=".doc"]:after,
+a[href$=".dot"]:after,
+a[href$=".docx"]:after,
+a[href$=".docm"]:after,
+a[href$=".dotx"]:after,
+a[href$=".dotm"]:after {
+  content: "\f1c2";
+  color: #2277bb !important;
+  padding-left:3px;
+  padding-right:2px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 80%;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn[href$=".odt"]:before,
+a.btn[href$=".fodt"]:before,
+a.btn[href$=".doc"]:before,
+a.btn[href$=".dot"]:before,
+a.btn[href$=".docx"]:before,
+a.btn[href$=".docm"]:before,
+a.btn[href$=".dotx"]:before,
+a.btn[href$=".dotm"]:before {
+  content: "\f1c2";
+  color: #ffffff !important;
+  padding-right:5px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn.white[href$=".odt"]:before,
+a.btn.white[href$=".fodt"]:before,
+a.btn.white[href$=".doc"]:before,
+a.btn.white[href$=".dot"]:before,
+a.btn.white[href$=".docx"]:before,
+a.btn.white[href$=".docm"]:before,
+a.btn.white[href$=".dotx"]:before,
+a.btn.white[href$=".dotm"]:before,
+a.btn.default[href$=".odt"]:before,
+a.btn.default[href$=".fodt"]:before,
+a.btn.default[href$=".doc"]:before,
+a.btn.default[href$=".dot"]:before,
+a.btn.default[href$=".docx"]:before,
+a.btn.default[href$=".docm"]:before,
+a.btn.default[href$=".dotx"]:before,
+a.btn.default[href$=".dotm"]:before,
+a.btn.gray-light[href$=".odt"]:before,
+a.btn.gray-light[href$=".fodt"]:before,
+a.btn.gray-light[href$=".doc"]:before,
+a.btn.gray-light[href$=".dot"]:before,
+a.btn.gray-light[href$=".docx"]:before,
+a.btn.gray-light[href$=".docm"]:before,
+a.btn.gray-light[href$=".dotx"]:before,
+a.btn.gray-light[href$=".dotm"]:before {
+  color: #2277bb !important;
+}
+.carousel-caption a[href$=".odt"]:after,
+.carousel-caption a[href$=".fodt"]:after,
+.carousel-caption a[href$=".doc"]:after,
+.carousel-caption a[href$=".dot"]:after,
+.carousel-caption a[href$=".docx"]:after,
+.carousel-caption a[href$=".docm"]:after,
+.carousel-caption a[href$=".dotx"]:after,
+.carousel-caption a[href$=".dotm"]:after {
+  color: #ffffff !important;
+  padding-left:5px;
+}
+.white .carousel-caption a[href$=".odt"]:after,
+.white .carousel-caption a[href$=".fodt"]:after,
+.white .carousel-caption a[href$=".doc"]:after,
+.white .carousel-caption a[href$=".dot"]:after,
+.white .carousel-caption a[href$=".docx"]:after,
+.white .carousel-caption a[href$=".docm"]:after,
+.white .carousel-caption a[href$=".dotx"]:after,
+.white .carousel-caption a[href$=".dotm"]:after {
+  color: #2277bb !important;
+  padding-right:5px;
+}
+ul li.list-group-item a[href$=".odt"]:after,
+ul li.list-group-item a[href$=".dodt"]:after,
+ul li.list-group-item a[href$=".doc"]:after,
+ul li.list-group-item a[href$=".dot"]:after,
+ul li.list-group-item a[href$=".docx"]:after,
+ul li.list-group-item a[href$=".docm"]:after,
+ul li.list-group-item a[href$=".dotx"]:after,
+ul li.list-group-item a[href$=".dotm"]:after,
+.page-sidebar a[href$=".odt"]:after,
+.page-sidebar a[href$=".fodt"]:after,
+.page-sidebar a[href$=".doc"]:after,
+.page-sidebar a[href$=".dot"]:after,
+.page-sidebar a[href$=".docx"]:after,
+.page-sidebar a[href$=".docm"]:after,
+.page-sidebar a[href$=".dotx"]:after,
+.page-sidebar a[href$=".dotm"]:after,
+a.btn[href$=".odt"]:after,
+a.btn[href$=".fodt"]:after,
+a.btn[href$=".doc"]:after,
+a.btn[href$=".dot"]:after,
+a.btn[href$=".docx"]:after,
+a.btn[href$=".docm"]:after,
+a.btn[href$=".dotx"]:after,
+a.btn[href$=".dotm"]:after {
+  content: "";
+  padding-left:0;
+}
+/**********************************************
+***********************************************
+Excel File Type Icons
+***********************************************
+**********************************************/
+a[href$=".csv"]:after,
+a[href$=".tsv"]:after,
+a[href$=".ods"]:after,
+a[href$=".fods"]:after,
+a[href$=".xlsb"]:after,
+a[href$=".xlam"]:after,
+a[href$=".xls"]:after,
+a[href$=".xlt"]:after,
+a[href$=".xlsx"]:after,
+a[href$=".xlsm"]:after,
+a[href$=".xltx"]:after,
+a[href$=".xltm"]:after {
+  content: "\f1c3";
+  color: #22bb66 !important;
+  padding-left:3px;
+  padding-right:2px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 80%;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn[href$=".csv"]:before,
+a.btn[href$=".tsv"]:before,
+a.btn[href$=".ods"]:before,
+a.btn[href$=".fods"]:before,
+a.btn[href$=".xlsb"]:before,
+a.btn[href$=".xlam"]:before,
+a.btn[href$=".xls"]:before,
+a.btn[href$=".xlt"]:before,
+a.btn[href$=".xlsx"]:before,
+a.btn[href$=".xlsm"]:before,
+a.btn[href$=".xltx"]:before,
+a.btn[href$=".xltm"]:before {
+  content: "\f1c3";
+  color: #ffffff !important;
+  padding-right:5px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn.white[href$=".csv"]:before,
+a.btn.white[href$=".tsv"]:before,
+a.btn.white[href$=".ods"]:before,
+a.btn.white[href$=".fods"]:before,
+a.btn.white[href$=".xlsb"]:before,
+a.btn.white[href$=".xlam"]:before,
+a.btn.white[href$=".xls"]:before,
+a.btn.white[href$=".xlt"]:before,
+a.btn.white[href$=".xlsx"]:before,
+a.btn.white[href$=".xlsm"]:before,
+a.btn.white[href$=".xltx"]:before,
+a.btn.white[href$=".xltm"]:before,
+a.btn.default[href$=".csv"]:before,
+a.btn.default[href$=".tsv"]:before,
+a.btn.default[href$=".ods"]:before,
+a.btn.default[href$=".fods"]:before,
+a.btn.default[href$=".xlsb"]:before,
+a.btn.default[href$=".xlam"]:before,
+a.btn.default[href$=".xls"]:before,
+a.btn.default[href$=".xlt"]:before,
+a.btn.default[href$=".xlsx"]:before,
+a.btn.default[href$=".xlsm"]:before,
+a.btn.default[href$=".xltx"]:before,
+a.btn.default[href$=".xltm"]:before,
+a.btn.gray-light[href$=".csv"]:before,
+a.btn.gray-light[href$=".tsv"]:before,
+a.btn.gray-light[href$=".ods"]:before,
+a.btn.gray-light[href$=".fods"]:before,
+a.btn.gray-light[href$=".xlsb"]:before,
+a.btn.gray-light[href$=".xlam"]:before,
+a.btn.gray-light[href$=".xls"]:before,
+a.btn.gray-light[href$=".xlt"]:before,
+a.btn.gray-light[href$=".xlsx"]:before,
+a.btn.gray-light[href$=".xlsm"]:before,
+a.btn.gray-light[href$=".xltx"]:before,
+a.btn.gray-light[href$=".xltm"]:before {
+  color: #22bb66 !important;
+}
+.carousel-caption a[href$=".csv"]:after,
+.carousel-caption a[href$=".tsv"]:after,
+.carousel-caption a[href$=".ods"]:after,
+.carousel-caption a[href$=".fods"]:after,
+.carousel-caption a[href$=".xlsb"]:after,
+.carousel-caption a[href$=".xlam"]:after,
+.carousel-caption a[href$=".xls"]:after,
+.carousel-caption a[href$=".xlt"]:after,
+.carousel-caption a[href$=".xlsx"]:after,
+.carousel-caption a[href$=".xlsm"]:after,
+.carousel-caption a[href$=".xltx"]:after,
+.carousel-caption a[href$=".xltm"]:after {
+  color: #ffffff !important;
+  padding-left:5px;
+}
+.white .carousel-caption a[href$=".csv"]:after,
+.white .carousel-caption a[href$=".tsv"]:after,
+.white .carousel-caption a[href$=".ods"]:after,
+.white .carousel-caption a[href$=".fods"]:after,
+.white .carousel-caption a[href$=".xlsb"]:after,
+.white .carousel-caption a[href$=".xlam"]:after,
+.white .carousel-caption a[href$=".xls"]:after,
+.white .carousel-caption a[href$=".xlt"]:after,
+.white .carousel-caption a[href$=".xlsx"]:after,
+.white .carousel-caption a[href$=".xlsm"]:after,
+.white .carousel-caption a[href$=".xltx"]:after,
+.white .carousel-caption a[href$=".xltm"]:after {
+  color: #22bb66 !important;
+  padding-right:5px;
+}
+ul li.list-group-item a[href$=".csv"]:after,
+ul li.list-group-item a[href$=".tsv"]:after,
+ul li.list-group-item a[href$=".ods"]:after,
+ul li.list-group-item a[href$=".fods"]:after,
+ul li.list-group-item a[href$=".xlsb"]:after,
+ul li.list-group-item a[href$=".xlam"]:after,
+ul li.list-group-item a[href$=".xls"]:after,
+ul li.list-group-item a[href$=".xlt"]:after,
+ul li.list-group-item a[href$=".xlsx"]:after,
+ul li.list-group-item a[href$=".xlsm"]:after,
+ul li.list-group-item a[href$=".xltx"]:after,
+ul li.list-group-item a[href$=".xltm"]:after,
+.page-sidebar a[href$=".csv"]:after,
+.page-sidebar a[href$=".tsv"]:after,
+.page-sidebar a[href$=".ods"]:after,
+.page-sidebar a[href$=".fods"]:after,
+.page-sidebar a[href$=".xlsb"]:after,
+.page-sidebar a[href$=".xlam"]:after,
+.page-sidebar a[href$=".xls"]:after,
+.page-sidebar a[href$=".xlt"]:after,
+.page-sidebar a[href$=".xlsx"]:after,
+.page-sidebar a[href$=".xlsm"]:after,
+.page-sidebar a[href$=".xltx"]:after,
+.page-sidebar a[href$=".xltm"]:after,
+a.btn[href$=".csv"]:after,
+a.btn[href$=".tsv"]:after,
+a.btn[href$=".ods"]:after,
+a.btn[href$=".fods"]:after,
+a.btn[href$=".xlsb"]:after,
+a.btn[href$=".xlam"]:after,
+a.btn[href$=".xls"]:after,
+a.btn[href$=".xlt"]:after,
+a.btn[href$=".xlsx"]:after,
+a.btn[href$=".xlsm"]:after,
+a.btn[href$=".xltx"]:after,
+a.btn[href$=".xltm"]:after {
+  content: "";
+  padding-left:0;
+}
+/**********************************************
+***********************************************
+PowerPoint File Type Icons
+***********************************************
+**********************************************/
+a[href$=".odp"]:after,
+a[href$=".fodp"]:after,
+a[href$=".ppsx"]:after,
+a[href$=".ppsm"]:after,
+a[href$=".sldx"]:after,
+a[href$=".sldm"]:after,
+a[href$=".thmx"]:after,
+a[href$=".ppt"]:after,
+a[href$=".pptx"]:after,
+a[href$=".pptm"]:after,
+a[href$=".pot"]:after,
+a[href$=".potx"]:after,
+a[href$=".potm"]:after,
+a[href$=".ppam"]:after,
+a[href$=".pps"]:after {
+  content: "\f1c4";
+  color: #d64e2a !important;
+  padding-left:3px;
+  padding-right:2px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 80%;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn[href$=".odp"]:before,
+a.btn[href$=".fodp"]:before,
+a.btn[href$=".ppsx"]:before,
+a.btn[href$=".ppsm"]:before,
+a.btn[href$=".sldx"]:before,
+a.btn[href$=".sldm"]:before,
+a.btn[href$=".thmx"]:before,
+a.btn[href$=".ppt"]:before,
+a.btn[href$=".pptx"]:before,
+a.btn[href$=".pptm"]:before,
+a.btn[href$=".pot"]:before,
+a.btn[href$=".potx"]:before,
+a.btn[href$=".potm"]:before,
+a.btn[href$=".ppam"]:before,
+a.btn[href$=".pps"]:before {
+  content: "\f1c4";
+  color: #ffffff !important;
+  padding-right:5px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn.white[href$=".odp"]:before,
+a.btn.white[href$=".fodp"]:before,
+a.btn.white[href$=".ppsx"]:before,
+a.btn.white[href$=".ppsm"]:before,
+a.btn.white[href$=".sldx"]:before,
+a.btn.white[href$=".sldm"]:before,
+a.btn.white[href$=".thmx"]:before,
+a.btn.white[href$=".ppt"]:before,
+a.btn.white[href$=".pptx"]:before,
+a.btn.white[href$=".pptm"]:before,
+a.btn.white[href$=".pot"]:before,
+a.btn.white[href$=".potx"]:before,
+a.btn.white[href$=".potm"]:before,
+a.btn.white[href$=".ppam"]:before,
+a.btn.white[href$=".pps"]:before,
+a.btn.default[href$=".odp"]:before,
+a.btn.default[href$=".fodp"]:before,
+a.btn.default[href$=".ppsx"]:before,
+a.btn.default[href$=".ppsm"]:before,
+a.btn.default[href$=".sldx"]:before,
+a.btn.default[href$=".sldm"]:before,
+a.btn.default[href$=".thmx"]:before,
+a.btn.default[href$=".ppt"]:before,
+a.btn.default[href$=".pptx"]:before,
+a.btn.default[href$=".pptm"]:before,
+a.btn.default[href$=".pot"]:before,
+a.btn.default[href$=".potx"]:before,
+a.btn.default[href$=".potm"]:before,
+a.btn.default[href$=".ppam"]:before,
+a.btn.default[href$=".pps"]:before,
+a.btn.gray-light[href$=".odp"]:before,
+a.btn.gray-light[href$=".fodp"]:before,
+a.btn.gray-light[href$=".ppsx"]:before,
+a.btn.gray-light[href$=".ppsm"]:before,
+a.btn.gray-light[href$=".sldx"]:before,
+a.btn.gray-light[href$=".sldm"]:before,
+a.btn.gray-light[href$=".thmx"]:before,
+a.btn.gray-light[href$=".ppt"]:before,
+a.btn.gray-light[href$=".pptx"]:before,
+a.btn.gray-light[href$=".pptm"]:before,
+a.btn.gray-light[href$=".pot"]:before,
+a.btn.gray-light[href$=".potx"]:before,
+a.btn.gray-light[href$=".potm"]:before,
+a.btn.gray-light[href$=".ppam"]:before,
+a.btn.gray-light[href$=".pps"]:before {
+  color: #d64e2a !important;
+}
+.carousel-caption a[href$=".odp"]:after,
+.carousel-caption a[href$=".fodp"]:after,
+.carousel-caption a[href$=".ppsx"]:after,
+.carousel-caption a[href$=".ppsm"]:after,
+.carousel-caption a[href$=".sldx"]:after,
+.carousel-caption a[href$=".sldm"]:after,
+.carousel-caption a[href$=".thmx"]:after,
+.carousel-caption a[href$=".ppt"]:after,
+.carousel-caption a[href$=".pptx"]:after,
+.carousel-caption a[href$=".pptm"]:after,
+.carousel-caption a[href$=".pot"]:after,
+.carousel-caption a[href$=".potx"]:after,
+.carousel-caption a[href$=".potm"]:after,
+.carousel-caption a[href$=".ppam"]:after,
+.carousel-caption a[href$=".pps"]:after {
+  color: #ffffff !important;
+  padding-left:5px;
+}
+.white .carousel-caption a[href$=".odp"]:after,
+.white .carousel-caption a[href$=".fodp"]:after,
+.white .carousel-caption a[href$=".ppsx"]:after,
+.white .carousel-caption a[href$=".ppsm"]:after,
+.white .carousel-caption a[href$=".sldx"]:after,
+.white .carousel-caption a[href$=".sldm"]:after,
+.white .carousel-caption a[href$=".thmx"]:after,
+.white .carousel-caption a[href$=".ppt"]:after,
+.white .carousel-caption a[href$=".pptx"]:after,
+.white .carousel-caption a[href$=".pptm"]:after,
+.white .carousel-caption a[href$=".pot"]:after,
+.white .carousel-caption a[href$=".potx"]:after,
+.white .carousel-caption a[href$=".potm"]:after,
+.white .carousel-caption a[href$=".ppam"]:after,
+.white .carousel-caption a[href$=".pps"]:after {
+  color: #d64e2a !important;
+  padding-right:5px;
+}
+ul li.list-group-item a[href$=".odp"]:after,
+ul li.list-group-item a[href$=".fodp"]:after,
+ul li.list-group-item a[href$=".ppsx"]:after,
+ul li.list-group-item a[href$=".ppsm"]:after,
+ul li.list-group-item a[href$=".sldx"]:after,
+ul li.list-group-item a[href$=".sldm"]:after,
+ul li.list-group-item a[href$=".thmx"]:after,
+ul li.list-group-item a[href$=".ppt"]:after,
+ul li.list-group-item a[href$=".pptx"]:after,
+ul li.list-group-item a[href$=".pptm"]:after,
+ul li.list-group-item a[href$=".pot"]:after,
+ul li.list-group-item a[href$=".potx"]:after,
+ul li.list-group-item a[href$=".potm"]:after,
+ul li.list-group-item a[href$=".ppam"]:after,
+ul li.list-group-item a[href$=".pps"]:after,
+.page-sidebar a[href$=".odp"]:after,
+.page-sidebar a[href$=".fodp"]:after,
+.page-sidebar a[href$=".ppsx"]:after,
+.page-sidebar a[href$=".ppsm"]:after,
+.page-sidebar a[href$=".sldx"]:after,
+.page-sidebar a[href$=".sldm"]:after,
+.page-sidebar a[href$=".thmx"]:after,
+.page-sidebar a[href$=".ppt"]:after,
+.page-sidebar a[href$=".pptx"]:after,
+.page-sidebar a[href$=".pptm"]:after,
+.page-sidebar a[href$=".pot"]:after,
+.page-sidebar a[href$=".potx"]:after,
+.page-sidebar a[href$=".potm"]:after,
+.page-sidebar a[href$=".ppam"]:after,
+.page-sidebar a[href$=".pps"]:after,
+a.btn[href$=".odp"]:after,
+a.btn[href$=".fodp"]:after,
+a.btn[href$=".ppsx"]:after,
+a.btn[href$=".ppsm"]:after,
+a.btn[href$=".sldx"]:after,
+a.btn[href$=".sldm"]:after,
+a.btn[href$=".thmx"]:after,
+a.btn[href$=".ppt"]:after,
+a.btn[href$=".pptx"]:after,
+a.btn[href$=".pptm"]:after,
+a.btn[href$=".pot"]:after,
+a.btn[href$=".potx"]:after,
+a.btn[href$=".potm"]:after,
+a.btn[href$=".ppam"]:after,
+a.btn[href$=".pps"]:after {
+  content: "";
+  padding-left:0;
+}
+/**********************************************
+***********************************************
+Text File Type Icons
+***********************************************
+**********************************************/
+a[href$=".rtf"]:after,
+a[href$=".rtfd"]:after,
+a[href$=".odf"]:after,
+a[href$=".txt"]:after,
+a[href$=".epub"]:after,
+a[href$=".text"]:after {
+  content: "\f0f6";
+  color: #808080 !important;
+  padding-left:3px;
+  padding-right:2px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 80%;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn[href$=".rtf"]:before,
+a.btn[href$=".rtfd"]:before,
+a.btn[href$=".odf"]:before,
+a.btn[href$=".txt"]:before,
+a.btn[href$=".epub"]:before,
+a.btn[href$=".text"]:before {
+  content: "\f0f6";
+  color: #ffffff !important;
+  padding-right:5px;
+  display: inline-block;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.btn.white[href$=".rtf"]:before,
+a.btn.white[href$=".rtfd"]:before,
+a.btn.white[href$=".odf"]:before,
+a.btn.white[href$=".txt"]:before,
+a.btn.white[href$=".epub"]:before,
+a.btn.white[href$=".text"]:before,
+a.btn.default[href$=".rtf"]:before,
+a.btn.default[href$=".rtfd"]:before,
+a.btn.default[href$=".odf"]:before,
+a.btn.default[href$=".txt"]:before,
+a.btn.default[href$=".epub"]:before,
+a.btn.default[href$=".text"]:before,
+a.btn.gray-light[href$=".rtf"]:before,
+a.btn.gray-light[href$=".rtfd"]:before,
+a.btn.gray-light[href$=".odf"]:before,
+a.btn.gray-light[href$=".txt"]:before,
+a.btn.gray-light[href$=".epub"]:before,
+a.btn.gray-light[href$=".text"]:before {
+  color: #808080 !important;
+}
+.carousel-caption a[href$=".rtf"]:after,
+.carousel-caption a[href$=".rtfd"]:after,
+.carousel-caption a[href$=".odf"]:after,
+.carousel-caption a[href$=".txt"]:after,
+.carousel-caption a[href$=".epub"]:after,
+.carousel-caption a[href$=".text"]:after {
+  color: #ffffff !important;
+  padding-left:5px;
+}
+.white .carousel-caption a[href$=".rtf"]:after,
+.white .carousel-caption a[href$=".rtfd"]:after,
+.white .carousel-caption a[href$=".odf"]:after,
+.white .carousel-caption a[href$=".txt"]:after,
+.white .carousel-caption a[href$=".epub"]:after,
+.white .carousel-caption a[href$=".text"]:after {
+  color: #808080 !important;
+  padding-right:5px;
+}
+ul li.list-group-item a[href$=".rtf"]:after,
+ul li.list-group-item a[href$=".rtfd"]:after,
+ul li.list-group-item a[href$=".odf"]:after,
+ul li.list-group-item a[href$=".txt"]:after,
+ul li.list-group-item a[href$=".epub"]:after,
+ul li.list-group-item a[href$=".text"]:after,
+.page-sidebar a[href$=".rtf"]:after,
+.page-sidebar a[href$=".rtfd"]:after,
+.page-sidebar a[href$=".odf"]:after,
+.page-sidebar a[href$=".txt"]:after,
+.page-sidebar a[href$=".epub"]:after,
+.page-sidebar a[href$=".text"]:after,
+a.btn[href$=".rtf"]:after,
+a.btn[href$=".rtfd"]:after,
+a.btn[href$=".odf"]:after,
+a.btn[href$=".txt"]:after,
+a.btn[href$=".epub"]:after,
+a.btn[href$=".text"]:after {
+  content: "";
+  padding-left:0;
+}

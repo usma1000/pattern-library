@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+aside#pattern-sidebar {
+  width: 200px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+aside#pattern-sidebar span {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #0a304e;
+  display: block;
+  margin-bottom: 10px;
+}
+
+aside#pattern-sidebar ul {
+  padding: 0;
+}
+
+aside#pattern-sidebar ul li {
+  list-style: none;
+  line-height: 1.8em;
+}

@@ -1,0 +1,32 @@
+{
+  "homeLinks": [{
+    "href": "#color-palette",
+    "title": "Color Palette"
+  }, {
+    "href": "#typography",
+    "title": "Typography"
+  }, {
+    "href": "#buttons",
+    "title": "Button Group"
+  }],
+  
+  "componentLinks": [{
+    "href": "#breadcrumbs",
+    "title": "Breadcrumbs"
+  }, {
+    "href": "#accordion",
+    "title": "Accordion"
+  }, {
+    "href": "#carousel-photo",
+    "title": "Carousel - Photo"
+  }, {
+    "href": "#carousel-slider",
+    "title": "Carousel - Slider"
+  }, {
+    "href": "#table",
+    "title": "Table"
+  }, {
+    "href": "#tabs",
+    "title": "Tabs"
+  }]
+}

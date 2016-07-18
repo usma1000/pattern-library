@@ -1,0 +1,16 @@
+<h2 class="pattern-header" id="typography">Typography</h2>
+<section class="pattern-section">
+  <p>
+    The typeface Titillium should be used for both body copy and headings. Download from
+    <a href="https://fonts.google.com/specimen/Titillium+Web?query=tit">Google Fonts</a>.
+  </p>
+  <div class="display-box">
+    <h1>h1: The quick, brown fox (36px)</h1>
+    <h2>h2: The quick, brown fox (32px)</h2>
+    <h3>h3: The quick, brown fox (28px)</h3>
+    <h4>h4: The quick, brown fox (26px)</h4>
+    <h5>h5: The quick, brown fox (24px)</h5>
+    <h6>h6: The quick, brown fox (20px)</h6>
+  </div>
+	<pre class="copytoclipboard"><code class="language-markup">&lt;link href="http://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" /></code></pre>
+</section>

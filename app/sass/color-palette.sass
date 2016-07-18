@@ -1,0 +1,26 @@
+@import "bourbon"
+@import "neat"
+@import "variables"
+
+.color-palette
+	display: inline-block
+	width: 100px
+	text-align: center
+	color: #fff
+	padding: 20px 10px
+	border-radius: 4px !important
+	box-shadow: $box-shadow
+	&:hover
+		box-shadow: 0px 2px 4px 1px rgba(44, 54, 67, 0.3)
+	&.blue-palette
+		background-color: $primary-color
+	&.gray-palette
+		background-color: #626262
+	&.default-palette
+		background-color: #e5e5e5
+		color: #000
+	&.white-palette
+		background-color: #fff
+		color: #000
+	&.black-palette
+		background-color: #000

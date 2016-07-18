@@ -1,0 +1,18 @@
+/*********************************************/
+/***    Case Western Reserve University    ***/
+/***    Development CSS                    ***/
+/***    Author: Ken Edwards                ***/
+
+/**********************************************
+***********************************************
+Focus
+***********************************************
+**********************************************/
+div.active:focus,
+.btn:focus, a:focus,
+.close:hover,
+.close:focus,
+.nav>li>a:hover,
+.nav>li>a:focus {
+    outline: dotted 1px #000;
+}

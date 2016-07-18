@@ -1,0 +1,7 @@
+<h2 class="pattern-header" id="carousel-photo">Carousel - Photo</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		{% include 'partials/mod/mod_carousel_photo.html' %}
+	</div>
+	<pre class="copytoclipboard"><code class="language-markup line-numbers">{% include 'partials/code/mod_carousel_photo.html' %}</code></pre>
+</section>

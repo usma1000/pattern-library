@@ -1,0 +1,13 @@
+{% macro active(activePage='home') %}
+<div id="main-nav">
+	<div class="nav-container">
+		<img src="../img/logo-default.png" alt="Case Western Reserve University Logo" id="pattern-logo">
+		<nav>
+			<a href="index.html" class="{%if activePage == 'home' %}active{% endif %}">Design</a>
+			<a href="#" class="{%if activePage == 'layout' %}active{% endif %}">Layout</a>
+			<a href="components.html" class="{%if activePage == 'components' %}active{% endif %}">Components</a>
+			<a href="#" class="{%if activePage == 'other' %}active{% endif %}">Other</a>
+		</nav>
+	</div>
+</div>
+{% endmacro %}

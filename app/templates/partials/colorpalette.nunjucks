@@ -1,0 +1,11 @@
+<h2 class="pattern-header" id="color-palette">Color Palette</h2>
+<section class="pattern-section">
+	<p>The university blue should be the dominant color, with gray, black, and white serving as secondary colors.</p>
+    <div class="display-box">
+      <div class="color-palette blue-palette">Blue: #0A304E</div>
+      <div class="color-palette gray-palette">Gray: #626262</div>
+      <div class="color-palette default-palette">Default: #E5E5E5</div>
+      <div class="color-palette white-palette">White: #FFFFFF</div>
+      <div class="color-palette black-palette">Black: #000000</div>
+    </div>
+</section>

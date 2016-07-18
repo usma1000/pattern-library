@@ -1,0 +1,7 @@
+<h2 class="pattern-header" id="tabs">Tabs</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		{% include 'partials/mod/mod_tab.html' %}
+	</div>
+	<pre class="copytoclipboard"><code class="language-markup line-numbers">{% include 'partials/code/mod_tab.html' %}</code></pre>
+</section>
