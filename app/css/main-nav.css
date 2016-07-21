@@ -10,6 +10,7 @@ html {
   background-color: #0a304e;
   margin-bottom: 20px;
   padding-top: 10px;
+  height: 68px;
   box-shadow: 0px 1px 1px 0px rgba(44, 54, 67, 0.2);
 }
 
@@ -34,6 +35,19 @@ html {
 
 #main-nav .nav-container img:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  #main-nav .nav-container img {
+    visibility: hidden;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+  }
+  #main-nav .nav-container img:last-child {
+    margin-right: 0;
+  }
 }
 
 #main-nav .nav-container nav {

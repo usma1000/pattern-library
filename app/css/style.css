@@ -18,6 +18,7 @@ html {
   background-color: #0a304e;
   margin-bottom: 20px;
   padding-top: 10px;
+  height: 68px;
   box-shadow: 0px 1px 1px 0px rgba(44, 54, 67, 0.2);
 }
 
@@ -42,6 +43,19 @@ html {
 
 #main-nav .nav-container img:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  #main-nav .nav-container img {
+    visibility: hidden;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+  }
+  #main-nav .nav-container img:last-child {
+    margin-right: 0;
+  }
 }
 
 #main-nav .nav-container nav {
@@ -126,6 +140,12 @@ aside#pattern-sidebar {
   background-color: #f3f3f3;
   padding: 20px;
   margin: 0 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  aside#pattern-sidebar {
+    visibility: hidden;
+  }
 }
 
 aside#pattern-sidebar span {

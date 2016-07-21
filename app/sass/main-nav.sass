@@ -6,11 +6,15 @@
 	background-color: $primary-color
 	margin-bottom: 20px
 	padding-top: 10px
+	height: 68px
 	box-shadow: $box-shadow
 	.nav-container
 		@include outer-container
 		img
 			@include span-columns(3)
+			@include media(max-width $medium-screen)
+				visibility: hidden
+				@include span-columns(1)
 		nav
 			@include span-columns(9)
 			margin-top: 25px

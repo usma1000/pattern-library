@@ -13,6 +13,12 @@ aside#pattern-sidebar {
   margin: 0 20px;
 }
 
+@media screen and (max-width: 1400px) {
+  aside#pattern-sidebar {
+    visibility: hidden;
+  }
+}
+
 aside#pattern-sidebar span {
   font-weight: 700;
   font-size: 1.2em;
