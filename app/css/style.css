@@ -235,3 +235,7 @@ main section.pattern-section pre {
 .copytoclipboard.btn:hover {
   background-color: #e5c725;
 }
+
+.bottompad40 {
+  padding-bottom: 40px;
+}

@@ -8,6 +8,7 @@
 <div class="contain-me">
 	<main>
 		{% include 'partials/portlet.nunjucks' %}
+		{% include 'partials/profile.nunjucks' %}
 	</main>
 </div>
 {% endblock %}

@@ -33,5 +33,8 @@
   "layoutLinks": [{
     "href": "#portlet",
     "title": "Portlet"
+  }, {
+    "href": "#profile",
+    "title": "Profile"
   }]
 }
