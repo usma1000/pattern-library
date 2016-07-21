@@ -13,7 +13,6 @@
 		{% include 'partials/carousel_slider.nunjucks' %}
 		{% include 'partials/table.nunjucks' %}
 		{% include 'partials/tabs.nunjucks' %}
-		{% include 'partials/portlet.nunjucks' %}
 	</main>
 </div>
 {% endblock %}

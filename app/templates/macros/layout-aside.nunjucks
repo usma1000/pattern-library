@@ -1,0 +1,12 @@
+<aside id="pattern-sidebar" data-spy="affix">
+	<span>Quick Links</span>
+	<ul>
+		{% for link in layoutLinks %}
+			<li>
+				<a href="{{link.href}}">{{link.title}}</a>
+			</li>
+		{% else %}
+			<li>No links to display.</li>
+		{% endfor %}
+	</ul>
+</aside>
