@@ -3,5 +3,6 @@
 	<div class="display-box">
 		{% include 'partials/mod/mod_table.html' %}
 	</div>
-	<pre class="copytoclipboard"><code class="language-markup line-numbers">{% include 'partials/code/mod_table.html' %}</code></pre>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_table") }}
 </section>

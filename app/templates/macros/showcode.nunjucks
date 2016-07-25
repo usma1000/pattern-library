@@ -1,0 +1,10 @@
+{% macro showcode %}
+
+<a class="show-code" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+	Show Code
+</a>
+<div class="collapse" id="collapseExample">
+	<pre class="copytoclipboard"><code class="language-markup line-numbers">{% include 'partials/code/mod_breadcrumbs.html' %}</code></pre>
+</div>
+
+{% endmacro %}

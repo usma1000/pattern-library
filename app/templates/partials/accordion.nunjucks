@@ -1,8 +1,11 @@
 <h2 class="pattern-header" id="accordion">Accordion</h2>
 <section class="pattern-section">
-	<p>The &lt;section> tag can be replaced with a &lt;div>.</p>
+	<p>The <code>section</code> tag can be replaced with a <code>div</code>.</p>
 	<div class="display-box">
 		{% include 'partials/mod/mod_accordion.html' %}
 	</div>
-	<pre class="copytoclipboard"><code class="language-markup line-numbers">{% include 'partials/code/mod_accordion.html' %}</code></pre>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_accordion") }}
+	{{ showcode.showcss("mod_accordion") }}
+	{{ showcode.showjs("mod_accordion") }}
 </section>

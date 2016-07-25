@@ -9,6 +9,7 @@
 	<main>
 		{% include 'partials/portlet.nunjucks' %}
 		{% include 'partials/profile.nunjucks' %}
+		{% include 'partials/articlelist.nunjucks' %}
 	</main>
 </div>
 {% endblock %}

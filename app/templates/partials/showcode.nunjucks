@@ -1,0 +1,29 @@
+{% macro showmarkup(modpath) %}
+	{% set path = 'partials/code/' + modpath + '.html' %}
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapse{{modpath}}html" aria-expanded="false" aria-controls="collapseExample">
+		Show Markup
+	</a>
+	<div class="collapse" id="collapse{{modpath}}html">
+		<pre class="copytoclipboard"><code class="language-markup line-numbers">{% include path %}</code></pre>
+	</div>
+{% endmacro %}
+
+{% macro showcss(modpath) %}
+	{% set path = 'partials/code/' + modpath + '.css' %}
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapse{{modpath}}css" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapse{{modpath}}css">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">{% include path %}</code></pre>
+	</div>
+{% endmacro %}
+
+{% macro showjs(modpath) %}
+	{% set path = 'partials/code/' + modpath + '.js' %}
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapse{{modpath}}js" aria-expanded="false" aria-controls="collapseExample">
+		Show JS
+	</a>
+	<div class="collapse" id="collapse{{modpath}}js">
+		<pre class="copytoclipboard"><code class="language-js line-numbers">{% include path %}</code></pre>
+	</div>
+{% endmacro %}
