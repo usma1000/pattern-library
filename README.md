@@ -22,9 +22,32 @@ variables.sass holds all of the SASS variables that are used throughout the proj
 
 This project also uses [Bourbon](bourbon.io) for mixins and [Neat](neat.bourbon.io) for the grid system. This helps keep the markup clean and easy to read.
 
-### Editing a Pattern Section
+### Editing an Existing Pattern
 To edit the text for a particular pattern, such as the accordion, open the accordion.nunjucks file in the templates/partials folder.
 
-The `.display-box` div points to the actual code for that pattern. It's the raw html code that is used for the websites. This code lives in the templates/partials/mod folder. All of the code in that folder is taken straight from GitHub and not edited in any way.
+To edit the code for a pattern, two files must be changed.
 
-The code for the Show Markup button lives in the templates/partials/code folder. This is essentially a copy of the same code from the mod folder, but with a few important differences. The comments must be removed. The outer most tags must not be tabbed over. And all `<` should be replaced with `&lt;`.
+The HTML code for the pattern can be downloaded from GitHub and placed in the `templates/partials/mod` folder. This code does not need to be edited in any way.
+
+Then make a copy of that file and place it in the `templates/partials/code` folder. This is the code that will show up under the Show Markup section. This is that code that users will be copying for their own use. You will need to make a few changes to this file. Superfluous comments should be removed, though this is not mandatory. The outer-most tags must not be tabbed over. The code should start at line 1, column 0. And finally, all `<` should be replaced with `&lt;`.
+
+### Adding A New Pattern
+To add a new pattern, first add the new code for the pattern in the `templates/partials/mod` folder.
+
+Then make a copy of that file and place it in the `templates/partials/code` folder. This is the code that will show up under the Show Markup section. This is that code that users will be copying for their own use. You will need to make a few changes to this file. Superfluous comments should be removed, though this is not mandatory. The outer-most tags must not be tabbed over. The code should start at line 1, column 0. And finally, all `<` should be replaced with `&lt;`.
+
+Now we will create a partial that will be added to one of the pages. Create a new file in the `templates/partials` folder with the name of the pattern and the .nunjucks extension. It might be easier to copy paste the code from one of the other files here such as accordion.nunjucks.
+
+Change the ID field and the Title of the section inside the `<h2>`. Optionally, add any notes on the new component in the `<p>`.
+
+Inside the `<div class="display-box">`, the path should point to the new code that you just added in the mod folder.
+
+Then change the `showcode.showmarkup`, `showcss`, and `showjs` to be the name of the files in the `code` folder.
+
+That's it for the nunjucks partial. Now you must include that partial to one of the pages. Open one of the nunjucks files inside the `pages` folder. Note: index.nunjucks is the Design page.
+
+Add another `include` block in the spot that you want the new pattern to show up. This should point to that new nunjucks file you just created.
+
+If you have gulp running, your new section should now be visible on that page.
+
+The only thing left to do is add the link for your new patter to the sidebar. Open `data.json` in the project root folder. Find the array that corresponds to the page that you just added your pattern to. Add an href and title for your pattern. The href corresponds to the ID you set in the `<h2>` of your nunjucks file. The title will be the text that shows up on the sidebar. Saving this file or refreshing the browser will not update the sidebar. You will need to re-run the `gulp` command to see your changes take place.
