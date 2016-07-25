@@ -137,21 +137,27 @@ html {
   box-sizing: inherit;
 }
 
-aside#pattern-sidebar {
+.affix-top, .affix {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
   width: 200px;
-  background-color: #f3f3f3;
   padding: 20px;
   margin: 0 20px;
-  box-shadow: 0px 1px 1px 0px rgba(44, 54, 67, 0.2);
+}
+
+.affix-top:last-child, .affix:last-child {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 1400px) {
-  aside#pattern-sidebar {
+  .affix-top, .affix {
     visibility: hidden;
   }
 }
 
-aside#pattern-sidebar span {
+.affix-top span, .affix span {
   font-weight: 700;
   font-size: 1.2em;
   color: #0a304e;
@@ -159,13 +165,17 @@ aside#pattern-sidebar span {
   margin-bottom: 10px;
 }
 
-aside#pattern-sidebar ul {
+.affix-top ul, .affix ul {
   padding: 0;
 }
 
-aside#pattern-sidebar ul li {
+.affix-top ul li, .affix ul li {
   list-style: none;
   line-height: 1.8em;
+}
+
+.affix {
+  top: 26px;
 }
 
 body {

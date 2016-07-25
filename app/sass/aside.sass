@@ -2,12 +2,13 @@
 @import "neat"
 @import "variables"
 
-aside#pattern-sidebar
+.affix-top, .affix
+	@include span-columns(1)
 	width: 200px
-	background-color: #f3f3f3
+	// background-color: #f3f3f3
 	padding: 20px
 	margin: 0 20px
-	box-shadow: $box-shadow
+	// box-shadow: $box-shadow
 	@include media(max-width $large-screen)
 		visibility: hidden
 	span
@@ -22,3 +23,5 @@ aside#pattern-sidebar
 		li
 			list-style: none
 			line-height: 1.8em
+.affix
+	top: 26px

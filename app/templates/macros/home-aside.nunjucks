@@ -1,4 +1,4 @@
-<aside id="pattern-sidebar" data-spy="affix">
+<aside id="pattern-sidebar" data-spy="affix" data-offset-top="60">
 	<span>Quick Links</span>
 	<ul>
 		{% for link in homeLinks %}
