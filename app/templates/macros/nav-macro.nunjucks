@@ -6,7 +6,6 @@
 			<a href="index.html" class="{%if activePage == 'home' %}active{% endif %}">Design</a>
 			<a href="layout.html" class="{%if activePage == 'layout' %}active{% endif %}">Layout</a>
 			<a href="components.html" class="{%if activePage == 'components' %}active{% endif %}">Components</a>
-			<a href="#" class="{%if activePage == 'other' %}active{% endif %}">Other</a>
 		</nav>
 	</div>
 </div>
