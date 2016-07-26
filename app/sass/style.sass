@@ -15,19 +15,23 @@ body
 
 main
 	.pattern-header
-		font-size: 22px
-		// text-align: center
+		font-size: 18px
 		background-color: #fff
-		margin: 0 0 1px 0
+		margin: 0
 		padding: 10px 20px
-		text-transform: uppercase !important
-		box-shadow: $box-shadow
+		border: 1px solid #f6f6f6
+		border-bottom: 1px solid $light-gray
+		box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.1)
 
 	section.pattern-section
 		background-color: #f3f3f3
 		margin-bottom: 40px
 		padding: 15px
-		box-shadow: $box-shadow
+		border: 1px solid #f6f6f6
+		border-top: 1px solid #fff
+		box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.1)
+		p.pattern-text
+			font-size: 14px
 		pre
 			max-height: 500px
 			min-height: 62px
@@ -65,12 +69,12 @@ main
 .show-code
 	color: $dark-gray
 	text-transform: uppercase
-	font-size: 18px
-	border-bottom: 1px dashed $dark-gray
+	font-size: 12px
+	border-bottom: 1px dashed #ccc
 	text-align: center
 	display: block
 	margin: 20px auto
-	width: 150px
+	width: 120px
 	padding-bottom: 10px
 	&:hover
 		text-decoration: none

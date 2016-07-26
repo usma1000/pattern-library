@@ -11,8 +11,8 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 6.17215%;
-  width: 200px;
-  padding: 20px;
+  width: 150px;
+  padding: 0 20px;
   margin: 0 20px;
 }
 
@@ -20,9 +20,9 @@ html {
   margin-right: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
   .affix-top, .affix {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -44,5 +44,5 @@ html {
 }
 
 .affix {
-  top: 26px;
+  top: 30px;
 }

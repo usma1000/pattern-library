@@ -4,13 +4,13 @@
 
 .affix-top, .affix
 	@include span-columns(1)
-	width: 200px
+	width: 150px
 	// background-color: #f3f3f3
-	padding: 20px
+	padding: 0 20px
 	margin: 0 20px
 	// box-shadow: $box-shadow
 	@include media(max-width $large-screen)
-		visibility: hidden
+		display: none
 	span
 		font:
 			weight: 700
@@ -24,4 +24,4 @@
 			list-style: none
 			line-height: 1.8em
 .affix
-	top: 26px
+	top: 30px

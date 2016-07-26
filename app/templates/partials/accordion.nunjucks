@@ -1,6 +1,6 @@
 <h2 class="pattern-header" id="accordion">Accordion</h2>
 <section class="pattern-section">
-	<p>The <code>&lt;section></code> tag can be replaced with a <code>&lt;div></code>.</p>
+	<p class="pattern-text">The <code>&lt;section></code> tag can be replaced with a <code>&lt;div></code>.</p>
 	<div class="display-box">
 		{% include 'partials/mod/mod_accordion.html' %}
 	</div>

@@ -1,6 +1,6 @@
 <h2 class="pattern-header" id="typography">Typography</h2>
 <section class="pattern-section">
-  <p>
+  <p class="pattern-text">
     The typeface Titillium should be used for both body copy and headings. Download from
     <a href="https://fonts.google.com/specimen/Titillium+Web?query=tit">Google Fonts</a>.
   </p>
