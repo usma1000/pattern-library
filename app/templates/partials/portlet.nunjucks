@@ -6,4 +6,5 @@
 	{% import 'partials/showcode.nunjucks' as showcode %}
 	{{ showcode.showmarkup("mod_portlet_home") }}
 	{{ showcode.showcss("mod_portlet_home") }}
+	{{ showcode.showjs("mod_portlet_home") }}
 </section>
