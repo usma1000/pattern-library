@@ -1,0 +1,57 @@
+main aside blockquote {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    color: #0a304e;
+    padding: 20px;
+    font-size: 18px;
+    border-left: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #bcbcbc;
+    border-bottom: 1px solid #bcbcbc;
+}
+main aside blockquote cite {
+    display: block;
+    font-style: normal;
+    margin-top: 10px;
+}
+main aside blockquote cite .name {
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    margin-right: 15px;
+}
+main aside blockquote cite .name:before {
+    content: '~';
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    height: 18px;
+}
+main blockquote {
+    padding: 12px 30px;
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-left: 4px solid #0a304e;
+    background-color: #f1f1f1;
+}
+main blockquote cite {
+    display: block;
+    font-style: italic;
+    margin-top: 10px;
+}
+main blockquote cite .name {
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    margin-right: 15px;
+}
+main blockquote cite .name:before {
+    content: '~';
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    height: 18px;
+}

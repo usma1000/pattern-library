@@ -7,13 +7,13 @@
 {% include 'macros/component-aside.nunjucks' %}
 <div class="contain-me">
 	<main>
-		{% include 'partials/breadcrumbs.nunjucks' %}
 		{% include 'partials/accordion.nunjucks' %}
+		{% include 'partials/breadcrumbs.nunjucks' %}
 		{% include 'partials/carousel_photo.nunjucks' %}
 		{% include 'partials/carousel_slider.nunjucks' %}
+		{% include 'partials/eventlist.nunjucks' %}
 		{% include 'partials/table.nunjucks' %}
 		{% include 'partials/tabs.nunjucks' %}
-		{% include 'partials/eventlist.nunjucks' %}
 	</main>
 </div>
 {% endblock %}

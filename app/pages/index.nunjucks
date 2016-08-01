@@ -9,6 +9,7 @@
 	<main>
 		{% include 'partials/colorpalette.nunjucks' %}
 		{% include 'partials/typography.nunjucks' %}
+		{% include 'partials/blockquote.nunjucks' %}
 		{% include 'partials/buttons.nunjucks' %}
 		{% include 'partials/well.nunjucks' %}
 	</main>

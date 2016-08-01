@@ -6,6 +6,9 @@
     "href": "#typography",
     "title": "Typography"
   }, {
+    "href": "#blockquote",
+    "title": "Block Quotes"
+  }, {
     "href": "#buttons",
     "title": "Buttons"
   }, {
@@ -14,11 +17,11 @@
   }],
 
   "componentLinks": [{
-    "href": "#breadcrumbs",
-    "title": "Breadcrumbs"
-  }, {
     "href": "#accordion",
     "title": "Accordion"
+  }, {
+    "href": "#breadcrumbs",
+    "title": "Breadcrumbs"
   }, {
     "href": "#carousel-photo",
     "title": "Carousel - Photo"
@@ -26,14 +29,14 @@
     "href": "#carousel-slider",
     "title": "Carousel - Slider"
   }, {
+    "href": "#eventlist",
+    "title": "Event List"
+  }, {
     "href": "#table",
     "title": "Table"
   }, {
     "href": "#tabs",
     "title": "Tabs"
-  }, {
-    "href": "#eventlist",
-    "title": "Event List"
   }],
 
   "layoutLinks": [{

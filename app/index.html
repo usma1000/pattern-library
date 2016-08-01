@@ -56,6 +56,10 @@
 			</li>
 		
 			<li>
+				<a href="#blockquote">Block Quotes</a>
+			</li>
+		
+			<li>
 				<a href="#buttons">Buttons</a>
 			</li>
 		
@@ -94,6 +98,97 @@
   </div>
 	<pre class="copytoclipboard"><code class="language-markup">&lt;link href="http://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" /></code></pre>
 </section>
+		<h2 class="pattern-header" id="blockquote">Block Quotes</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		<blockquote>
+  This is a block quote.
+  <cite>Author Name</cite>
+</blockquote>
+
+	</div>
+	
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_blockquotehtml" aria-expanded="false" aria-controls="collapseExample">
+		Show Markup
+	</a>
+	<div class="collapse" id="collapsemod_blockquotehtml">
+		<pre class="copytoclipboard"><code class="language-markup line-numbers">&lt;blockquote>
+  This is a block quote.
+  &lt;cite>Author Name&lt;/cite>
+&lt;/blockquote>
+</code></pre>
+	</div>
+
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_blockquotecss" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapsemod_blockquotecss">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">main aside blockquote {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    color: #0a304e;
+    padding: 20px;
+    font-size: 18px;
+    border-left: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #bcbcbc;
+    border-bottom: 1px solid #bcbcbc;
+}
+main aside blockquote cite {
+    display: block;
+    font-style: normal;
+    margin-top: 10px;
+}
+main aside blockquote cite .name {
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    margin-right: 15px;
+}
+main aside blockquote cite .name:before {
+    content: '~';
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    height: 18px;
+}
+main blockquote {
+    padding: 12px 30px;
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-left: 4px solid #0a304e;
+    background-color: #f1f1f1;
+}
+main blockquote cite {
+    display: block;
+    font-style: italic;
+    margin-top: 10px;
+}
+main blockquote cite .name {
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    margin-right: 15px;
+}
+main blockquote cite .name:before {
+    content: '~';
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    height: 18px;
+}
+</code></pre>
+	</div>
+
+</section>
+
 		<h2 class="pattern-header" id="buttons">Buttons</h2>
 <section class="pattern-section">
 	<div class="display-box">
