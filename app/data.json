@@ -31,6 +31,9 @@
   }, {
     "href": "#tabs",
     "title": "Tabs"
+  }, {
+    "href": "#eventlist",
+    "title": "Event List"
   }],
 
   "layoutLinks": [{

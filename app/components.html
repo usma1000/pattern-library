@@ -71,6 +71,10 @@
 				<a href="#tabs">Tabs</a>
 			</li>
 		
+			<li>
+				<a href="#eventlist">Event List</a>
+			</li>
+		
 	</ul>
 </aside>
 <div class="contain-me">
@@ -1254,6 +1258,186 @@ div.side-scroll>table {
 @media (max-width: 767px) {
     .nav-tabs>li {
         min-width: auto;
+    }
+}</code></pre>
+	</div>
+
+</section>
+		<h2 class="pattern-header" id="eventlist">Event List</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		
+<!-- BEGIN EVENT LIST MODULE
+///////////////////////////////////////////////////////////// -->
+
+                            <section class="sub-events">
+                                <h2 class="sr-only" tabindex="0">Calendar Events</h2>
+                                <div class="portlet box gray-light">
+                                  <div class="portlet-title">
+                                    <div class="caption"> section title </div>
+                                  </div>
+                                  <div class="portlet-body">
+                                    <div id="gcf-demo" class="gCalFlow">
+
+                                     <ul class="gcf-item-container-block sideBar-cal-list">
+                                      <li class="gcf-item-block">
+                                            <div class="gcf-item-daterange"></div>  
+                                            <div class="gcf-item-title">Loading...please wait</div> 
+                                       </li>
+                                    </ul>
+
+                                    </div>
+                                    <a href="#" class="btn blue btn-lg btn-min"> Full Calendar </a>
+                                  </div>
+                                </div>
+                            </section>
+	</div>
+	
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_eventlist_gcalhtml" aria-expanded="false" aria-controls="collapseExample">
+		Show Markup
+	</a>
+	<div class="collapse" id="collapsemod_eventlist_gcalhtml">
+		<pre class="copytoclipboard"><code class="language-markup line-numbers">&lt;section class="sub-events">
+    &lt;h2 class="sr-only" tabindex="0">Calendar Events&lt;/h2>
+    &lt;div class="portlet box gray-light">
+      &lt;div class="portlet-title">
+        &lt;div class="caption"> section title &lt;/div>
+      &lt;/div>
+      &lt;div class="portlet-body">
+        &lt;div id="gcf-demo" class="gCalFlow">
+
+         &lt;ul class="gcf-item-container-block sideBar-cal-list">
+          &lt;li class="gcf-item-block">
+                &lt;div class="gcf-item-daterange">&lt;/div>  
+                &lt;div class="gcf-item-title">Loading...please wait&lt;/div> 
+           &lt;/li>
+        &lt;/ul>
+
+        &lt;/div>
+        &lt;a href="#" class="btn blue btn-lg btn-min"> Full Calendar &lt;/a>
+      &lt;/div>
+    &lt;/div>
+&lt;/section></code></pre>
+	</div>
+
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_eventlist_gcalcss" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapsemod_eventlist_gcalcss">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">.gcf-item-container-block {
+    padding: 0;
+}
+.gcf-item-block {
+    border-bottom: 1px dashed #eee;
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    list-style-type: none;
+    /*margin: 1% 1% 0.5em;*/
+    overflow: auto;
+    padding: 8px 5px;
+    text-align: left;
+    width: 100%;
+}
+.gcf-item-title {
+    display: block;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.25em;
+    word-wrap: break-word;
+}
+.gcf-item-daterange {
+    border: 1px solid #eee;
+    color: #626262;
+    display: block;
+    float: left;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 1em;
+    margin-right: 10px;
+    text-align: center;
+    width: 50px;
+}
+.gcf-item-daterange .month {
+    background: none repeat scroll 0 0 #0a304e;
+    color: white;
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.4;
+    width: 50px;
+}
+.gcf-item-daterange .day {
+    background-color: #fff;
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.gcf-item-location {
+    display: block;
+    font-size: 90%;
+    font-weight: normal;
+    line-height: 1;
+}
+.cal-link {
+    display: block;
+    font-size: 16px;
+    margin: 15px 18px;
+}
+.cal-list {
+    margin: 10px 0;
+}
+.cal-list ul {
+    margin: 0 0 0 7px;
+    padding: 0;
+}
+.cal-list ul li {
+    padding: 8px 5px;
+    display: block;
+    list-style-type: none;
+    border-bottom: dotted 1px #eee;
+    font-size: 17px;
+    overflow: auto;
+}
+.cal-list ul li div {
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    border: solid 1px #eee;
+}
+.cal-list ul li div span {
+    display: block;
+    font-weight: 300;
+    width: 50px;
+}
+.cal-list ul li div .month {
+    font-size: 13px;
+    background: #0a304e;
+    color: #fff;
+}
+.cal-list ul li div .day {
+    font-size: 25px;
+}
+.cal-list .cal-link {
+    display: block;
+    font-size: 16px;
+    margin: 15px 18px;
+}
+@media only screen and (max-width: 991px) {
+    .gcf-item-container-block {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .gcf-item-block {
+        height: auto;
+        overflow: hidden;
     }
 }</code></pre>
 	</div>

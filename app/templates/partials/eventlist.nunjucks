@@ -1,0 +1,9 @@
+<h2 class="pattern-header" id="eventlist">Event List</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		{% include 'partials/mod/mod_eventlist_gcal.html' %}
+	</div>
+	{% import 'partials/showcode.nunjucks' as showcode %}
+	{{ showcode.showmarkup("mod_eventlist_gcal") }}
+	{{ showcode.showcss("mod_eventlist_gcal") }}
+</section>
