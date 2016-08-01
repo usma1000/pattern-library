@@ -56,7 +56,11 @@
 			</li>
 		
 			<li>
-				<a href="#buttons">Button Group</a>
+				<a href="#buttons">Buttons</a>
+			</li>
+		
+			<li>
+				<a href="#well">Well</a>
 			</li>
 		
 	</ul>
@@ -90,14 +94,21 @@
   </div>
 	<pre class="copytoclipboard"><code class="language-markup">&lt;link href="http://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" /></code></pre>
 </section>
-		<h2 class="pattern-header" id="buttons">Button Group</h2>
+		<h2 class="pattern-header" id="buttons">Buttons</h2>
 <section class="pattern-section">
-	<p class="pattern-text">Delete the <code>&lt;i></code> tag to remove the icons.
 	<div class="display-box">
 		
 <!-- BEGIN BUTTON GROUP MODULE
 ///////////////////////////////////////////////////////////// -->
 
+<button class="btn btn-primary">.btn.btn-primary</button>
+<button class="btn default">.btn.default</button>
+<button class="btn white">.btn.white</button>
+<button class="btn gray-light">.btn.gray-light</button>
+<button class="btn subfeatures-gray">.btn.subfeatures-gray</button>
+<button class="btn btn-lg">.btn.btn-lg</button>
+
+<hr>
                                 <section class="sub-buttongroup">
                                   <h2 class="sr-only" tabindex="0">Something Link Group</h2>
                                   <ul class="list-group">
@@ -117,7 +128,16 @@
 		Show Markup
 	</a>
 	<div class="collapse" id="collapsemod_buttongrouphtml">
-		<pre class="copytoclipboard"><code class="language-markup line-numbers">&lt;section class="sub-buttongroup">
+		<pre class="copytoclipboard"><code class="language-markup line-numbers">&lt;button class="btn btn-primary">.btn.btn-primary&lt;/button>
+&lt;button class="btn default">.btn.default&lt;/button>
+&lt;button class="btn white">.btn.white&lt;/button>
+&lt;button class="btn gray-light">.btn.gray-light&lt;/button>
+&lt;button class="btn subfeatures-gray">.btn.subfeatures-gray&lt;/button>
+&lt;button class="btn btn-lg">.btn.btn-lg&lt;/button>
+
+&lt;hr>
+
+&lt;section class="sub-buttongroup">
   &lt;h2 class="sr-only" tabindex="0">Something Link Group&lt;/h2>
   &lt;ul class="list-group">
       &lt;li class="list-group-item bg-blue bg-font-blue"> &lt;a href="index.html">&lt;i class="fa fa-coffee fa-fw" aria-hidden="true">&lt;/i>&lt;span>Link 1&lt;/span>&lt;/a> &lt;/li>
@@ -127,6 +147,182 @@
       &lt;li class="list-group-item bg-blue bg-font-blue"> &lt;a href="index.html">&lt;i class="fa fa-film fa-fw" aria-hidden="true">&lt;/i>&lt;span>Link 5&lt;/span>&lt;/a> &lt;/li>
   &lt;/ul>
 &lt;/section>
+</code></pre>
+	</div>
+
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_buttongroupcss" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapsemod_buttongroupcss">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">.btn {
+    white-space: normal;
+}
+.btn-nowrap {
+    white-space: nowrap !important;
+}
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:hover,
+.open>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3168a6;
+    border-color: #3168a6;
+}
+.btn-group-lg>.btn,
+.btn-lg {
+    font-size: 20px;
+}
+.btn.btn-min {
+    min-width: 125px;
+}
+#news-story-page main .container-inner .btn {
+    margin-right: 5px;
+}
+.btn-rt {
+    margin-right: 0;
+}
+.btn.white {
+    border: 1px solid #eeeeee !important;
+}
+.btn.white:hover {
+    border: 1px solid #e5e5e5 !important;
+}
+.btn.default:hover {
+    border: 1px solid #e5e5e5 !important;
+}
+.btn.gray-light:hover {
+    border: 1px solid #eeeeee !important;
+}
+@media (max-width: 991px) {
+    .btn.btn-lg {
+        padding: 12px 14px;
+        font-size: 16px;
+    }
+    .btn.btn-min {
+        min-width: 100px;
+    }
+}
+.subfeatures-gray .btn {
+    display: block;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .btn.btn-lg {
+        padding: 12px 12px;
+        font-size: 14px;
+    }
+    .btn.btn-min {
+        min-width: 80px;
+    }
+}</code></pre>
+	</div>
+
+</section>
+		<h2 class="pattern-header" id="well">Well</h2>
+<section class="pattern-section">
+	<div class="display-box">
+		<div class="well"><p>This is a well</p></div>
+<div class="well well-blue"><p>This is a blue well</p></div>
+<div class="well well-lightblue"><p>This is a light blue well</p></div>
+<div class="well well-sm"><p>This is a small well</p></div>
+<div class="well well-lg"><p>This is a large well</p></div>
+	</div>
+	
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_wellhtml" aria-expanded="false" aria-controls="collapseExample">
+		Show Markup
+	</a>
+	<div class="collapse" id="collapsemod_wellhtml">
+		<pre class="copytoclipboard"><code class="language-markup line-numbers">&lt;div class="well">&lt;p>This is a well&lt;/p>&lt;/div>
+&lt;div class="well well-blue">&lt;p>This is a blue well&lt;/p>&lt;/div>
+&lt;div class="well well-lightblue">&lt;p>This is a light blue well&lt;/p>&lt;/div>
+&lt;div class="well well-sm">&lt;p>This is a small well&lt;/p>&lt;/div>
+&lt;div class="well well-lg">&lt;p>This is a large well&lt;/p>&lt;/div></code></pre>
+	</div>
+
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_wellcss" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapsemod_wellcss">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">.well {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+}
+.well-blue {
+    background-color: #0a304e;
+    border: 1px solid #0a304e;
+    color: #ffffff !important;
+}
+.well-lightblue {
+    background-color: #3168a6;
+    border: 1px solid #3168a6;
+    color: #ffffff !important;
+}
+.well-blue h1,
+.well-blue h2,
+.well-blue h3,
+.well-blue h4,
+.well-blue h5,
+.well-blue h6 {
+    color: #ffffff !important;
+}
+.well-lightblue h1,
+.well-lightblue h2,
+.well-lightblue h3,
+.well-lightblue h4,
+.well-lightblue h5,
+.well-lightblue h6 {
+    color: #ffffff !important;
+}
+.well h1:first-of-type,
+.well h2:first-of-type,
+.well h3:first-of-type,
+.well h4:first-of-type,
+.well h5:first-of-type,
+.well h6:first-of-type {
+    padding-top: 0;
+    margin-top: 0;
+}
+.well-sm p {
+    font-size: 18px;
+}
+.well-lg p {
+    font-size: 24px;
+}
+h1 + .well,
+h2 + .well,
+h3 + .well,
+h4 + .well,
+h5 + .well,
+h6 + .well {
+    margin-top: 20px;
+}
+.well p:only-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.well p:first-of-type {
+    margin-top: 0;
+}
+.well p:last-of-type {
+    margin-bottom: 0;
+}
+@media (max-width: 767px) {
+    .well-action .vertical-align-inner .pull-right {
+        float: none !important;
+    }
+    .well-action .col-sm-9 p:last-of-type {
+        margin-bottom: 15px;
+    }
+}
 </code></pre>
 	</div>
 

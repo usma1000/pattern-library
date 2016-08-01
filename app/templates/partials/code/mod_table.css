@@ -1,0 +1,93 @@
+.table-bordered,
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #fff;
+}
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    background-color: #0a304e;
+    color: #fff;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 15px;
+}
+table.table-striped {
+    background-color: #f0f0f0;
+}
+.table>thead>tr>th {
+    font-size: 22px;
+    font-weight: 600;
+}
+.table>tbody>tr>td {
+    font-size: 20px;
+    font-weight: 400;
+}
+.table>tbody>tr.highlight>td {
+    background-color: #bed7ea;
+    color: #444;
+}
+.table>tbody>tr.highlight-danger>td {
+    background-color: #e2a9a9;
+    color: #444;
+}
+.table>tbody>tr.highlight-warning>td {
+    background-color: #e4daad;
+    color: #444;
+}
+.table>tbody>tr.highlight-success>td {
+    background-color: #8cd58c;
+    color: #444;
+}
+.table>tbody>tr.highlight>td>a,
+.table>tbody>tr.highlight-danger>td>a,
+.table>tbody>tr.highlight-success>td>a,
+.table>tbody>tr.highlight-warning>td>a {
+    color: #0a304e;
+}
+.table-bordered {
+    font-size: 19px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #dedede !important;
+}
+.table-hover>tbody>tr.highlight:hover>td>a,
+.table-hover>tbody>tr.highlight-success:hover>td>a,
+.table-hover>tbody>tr.highlight-danger:hover>td>a,
+.table-hover>tbody>tr.highlight-warning:hover>td>a {
+    color: #0a304e !important;
+}
+div.side-scroll {
+    display: block;
+    overflow-x: auto;
+}
+div.side-scroll>table {
+    min-width: 600px;
+}
+@media (min-width: 991px) {
+    .table-hover>tbody>tr:hover>td {
+        background-color: #fff;
+        color: #444;
+    }
+    .table-hover>tbody>tr.highlight:hover>td,
+    .table-hover>tbody>tr.highlight-success:hover>td,
+    .table-hover>tbody>tr.highlight-danger:hover>td,
+    .table-hover>tbody>tr.highlight-warning:hover>td {
+        background-color: #fff;
+        color: #444;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .flip-scroll th,
+    .flip-scroll .table-bordered.flip-content tbody tr td {
+        font-size: 18px!important;
+    }
+}

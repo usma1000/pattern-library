@@ -7,7 +7,10 @@
     "title": "Typography"
   }, {
     "href": "#buttons",
-    "title": "Button Group"
+    "title": "Buttons"
+  }, {
+  "href": "#well",
+  "title": "Well"
   }],
 
   "componentLinks": [{
@@ -38,6 +41,6 @@
     "title": "Profile"
   }, {
   "href": "#articlelist",
-  "title": "Articlelist"
+  "title": "Article Lists"
   }]
 }

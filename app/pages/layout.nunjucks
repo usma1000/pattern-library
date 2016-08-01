@@ -4,8 +4,8 @@
 
 {% import 'macros/nav-macro.nunjucks' as nav %}
 {{nav.active('layout')}}
+{% include 'macros/layout-aside.nunjucks' %}
 <div class="contain-me">
-	{% include 'macros/layout-aside.nunjucks' %}
 	<main>
 		{% include 'partials/portlet.nunjucks' %}
 		{% include 'partials/profile.nunjucks' %}

@@ -5,4 +5,5 @@
 	</div>
 	{% import 'partials/showcode.nunjucks' as showcode %}
 	{{ showcode.showmarkup("mod_table") }}
+	{{ showcode.showcss("mod_table") }}
 </section>

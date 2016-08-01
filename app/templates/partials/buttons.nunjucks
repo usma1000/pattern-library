@@ -1,9 +1,9 @@
-<h2 class="pattern-header" id="buttons">Button Group</h2>
+<h2 class="pattern-header" id="buttons">Buttons</h2>
 <section class="pattern-section">
-	<p class="pattern-text">Delete the <code>&lt;i></code> tag to remove the icons.
 	<div class="display-box">
 		{% include 'partials/mod/mod_buttongroup.html' %}
 	</div>
 	{% import 'partials/showcode.nunjucks' as showcode %}
 	{{ showcode.showmarkup("mod_buttongroup") }}
+	{{ showcode.showcss("mod_buttongroup") }}
 </section>

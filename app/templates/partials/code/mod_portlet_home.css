@@ -1,0 +1,28 @@
+
+section.sub-feed .portlet-body ul li small {
+    display: block;
+    color: #888;
+    font-size: 15px;
+}
+main section.sub-feed .portlet .portlet-body ul,
+main section.sub-feed .portlet .portlet-body ol {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.portlet.box>.portlet-title>.tools>a.newsfeed {
+    color: #0a304e;
+}
+.portlet.box>.portlet-title>.tools>a:hover.newsfeed {
+    color: #3168a6;
+}
+.portlet>.portlet-title>.tools>a.newsfeed {
+    display: inline-block;
+    top: -3px;
+    position: relative;
+    font-size: 13px;
+    font-family: FontAwesome;
+    color: #0a304e;
+}
+.portlet>.portlet-title>.tools>a.newsfeed:before {
+    content: "\f09e";
+}

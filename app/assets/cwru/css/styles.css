@@ -970,7 +970,6 @@ Modify Anchor Target
   height:114px;
   margin:-114px 0 0;
 }
-
 .page-fluid .skip-content:target:before {
   content:"";
   display:block;
@@ -1015,6 +1014,36 @@ Equal Height Columns
     html[data-useragent*='Firefox'] .subfeatures .thumbnail a.btn {
         position: absolute !important;
         bottom: 0px !important;
+    }
+}
+
+/**********************************************
+***********************************************
+Vertical Alignment Rows
+***********************************************
+**********************************************/
+
+@media (min-width: 767px) {
+    .vertical-align {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+    }
+    .vertical-align > [class^="col-"],
+    .vertical-align > [class*=" col-"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vertical-align > [class^="col-"] > div,
+    .vertical-align > [class*=" col-"] > div {
+        /* flex: 1; */
+        flex-grow: 1;
+    }
+    html[data-useragent*='Trident'] .vertical-align > div {
+        display: table-cell !important;
     }
 }
 
@@ -1798,6 +1827,9 @@ Buttons
 .btn {
     white-space: normal;
 }
+.btn-nowrap {
+    white-space: nowrap !important;
+}
 .btn-primary.active,
 .btn-primary:active,
 .btn-primary:hover,
@@ -1851,6 +1883,90 @@ Buttons
     }
     .btn.btn-min {
         min-width: 80px;
+    }
+}
+
+/**********************************************
+***********************************************
+Wells
+***********************************************
+**********************************************/
+
+.well {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+}
+.well-blue {
+    background-color: #0a304e;
+    border: 1px solid #0a304e;
+    color: #ffffff !important;
+}
+.well-lightblue {
+    background-color: #3168a6;
+    border: 1px solid #3168a6;
+    color: #ffffff !important;
+}
+.well-blue h1,
+.well-blue h2,
+.well-blue h3,
+.well-blue h4,
+.well-blue h5,
+.well-blue h6 {
+    color: #ffffff !important;
+}
+.well-lightblue h1,
+.well-lightblue h2,
+.well-lightblue h3,
+.well-lightblue h4,
+.well-lightblue h5,
+.well-lightblue h6 {
+    color: #ffffff !important;
+}
+.well h1:first-of-type,
+.well h2:first-of-type,
+.well h3:first-of-type,
+.well h4:first-of-type,
+.well h5:first-of-type,
+.well h6:first-of-type {
+    padding-top: 0;
+    margin-top: 0;
+}
+.well-sm p {
+    font-size: 18px;
+}
+.well-lg p {
+    font-size: 24px;
+}
+h1 + .well,
+h2 + .well,
+h3 + .well,
+h4 + .well,
+h5 + .well,
+h6 + .well {
+    margin-top: 20px;
+}
+.well p:only-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.well p:first-of-type {
+    margin-top: 0;
+}
+.well p:last-of-type {
+    margin-bottom: 0;
+}
+.well h4 + .well p {
+
+}
+@media (max-width: 767px) {
+    .well-action .vertical-align-inner .pull-right {
+        float: none !important;
+    }
+    .well-action .col-sm-9 p:last-of-type {
+        margin-bottom: 15px;
     }
 }
 
@@ -2286,6 +2402,7 @@ Subfeatures
     margin-top: 0 !important;
     font-size: 36px;
 }
+.sub-carousel + .sub-well,
 .sub-carousel + .sub-carousel,
 .sub-carousel + .sub-gray,
 .sub-carousel + .sub-border,
@@ -4735,245 +4852,4 @@ Page Layouts
         padding-left: 0px;
         padding-right: 0px;
     }
-}
-
-/**********************************************
-***********************************************
-Custom Icon Font
-***********************************************
-**********************************************/
-
-@font-face {
-    font-family: 'typeface';
-    src: url('../fonts/typeface-cwru.eot');
-    src: url('../fonts/typeface-cwru.eot?#iefix') format('embedded-opentype'), url('../fonts/typeface-cwru.woff2') format('woff2'), url('../fonts/typeface-cwru.woff') format('woff'), url('../fonts/typeface-cwru.ttf') format('truetype'), url('../fonts/typeface-cwru.svg#typefaceregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-.typeface {
-    display: inline-block;
-    font: normal normal normal 14px/1 typeface;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/* makes the font 33% larger relative to the icon container */
-
-.typeface-lg {
-    font-size: 1.33333333em;
-    line-height: 0.75em;
-    vertical-align: -15%;
-}
-.typeface-2x {
-    font-size: 2em;
-}
-.typeface-3x {
-    font-size: 3em;
-}
-.typeface-4x {
-    font-size: 4em;
-}
-.typeface-5x {
-    font-size: 5em;
-}
-.typeface-fw {
-    width: 1.28571429em;
-    text-align: center;
-}
-.typeface-ul {
-    padding-left: 0;
-    margin-left: 2.14285714em;
-    list-style-type: none;
-}
-.typeface-ul > li {
-    position: relative;
-}
-.typeface-li {
-    position: absolute;
-    left: -2.14285714em;
-    width: 2.14285714em;
-    top: 0.14285714em;
-    text-align: center;
-}
-.typeface-li.typeface-lg {
-    left: -1.85714286em;
-}
-.typeface-border {
-    padding: .2em .25em .15em;
-    border: solid 0.08em #eeeeee;
-    border-radius: .1em;
-}
-.typeface-pull-left {
-    float: left;
-}
-.typeface-pull-right {
-    float: right;
-}
-.typeface.typeface-pull-left {
-    margin-right: .3em;
-}
-.typeface.typeface-pull-right {
-    margin-left: .3em;
-}
-
-/* Deprecated as of 4.4.0 */
-
-.pull-right {
-    float: right;
-}
-.pull-left {
-    float: left;
-}
-.typeface.pull-left {
-    margin-right: .3em;
-}
-.typeface.pull-right {
-    margin-left: .3em;
-}
-.typeface-spin {
-    -webkit-animation: typeface-spin 2s infinite linear;
-    animation: typeface-spin 2s infinite linear;
-}
-.typeface-pulse {
-    -webkit-animation: typeface-spin 1s infinite steps(8);
-    animation: typeface-spin 1s infinite steps(8);
-}
-@-webkit-keyframes typeface-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-    }
-}
-@keyframes typeface-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-    }
-}
-.typeface-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.typeface-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-.typeface-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-}
-.typeface-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-    -webkit-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
-}
-.typeface-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-    -webkit-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-}
-:root .typeface-rotate-90,
-:root .typeface-rotate-180,
-:root .typeface-rotate-270,
-:root .typeface-flip-horizontal,
-:root .typeface-flip-vertical {
-    filter: none;
-}
-.typeface-stack {
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-}
-.typeface-stack-1x,
-.typeface-stack-2x {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-.typeface-stack-1x {
-    line-height: inherit;
-}
-.typeface-stack-2x {
-    font-size: 2em;
-}
-.typeface-inverse {
-    color: #ffffff;
-}
-.typeface-pdf:before {
-    content: "A";
-}
-
-/**********************************************
-***********************************************
-PDF File Type Icons (.kentest)
-***********************************************
-**********************************************/
-
-a.kentest[href$=".pdf"]:after {
-    content: 'A';
-    color: #cc080a !important;
-    padding-left: 3px;
-    padding-right: 2px;
-    display: inline-block;
-    line-height: 14px;
-    -webkit-font-smoothing: antialiased;
-    font: normal normal normal 14px/1 typeface;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-a.kentest.btn[href$=".pdf"]:before {
-    content: 'A';
-    color: #ffffff !important;
-    padding-right: 5px;
-    display: inline-block;
-    line-height: 14px;
-    -webkit-font-smoothing: antialiased;
-    font: normal normal normal 14px/1 typeface;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-a.kentest.btn.white[href$=".pdf"]:before,
-a.kentest.btn.default[href$=".pdf"]:before,
-a.kentest.btn.gray-light[href$=".pdf"]:before {
-    color: #cc080a !important;
-}
-.carousel-caption a.kentest[href$=".pdf"]:after {
-    color: #ffffff !important;
-    padding-left: 5px;
-}
-.white .carousel-caption a.kentest[href$=".pdf"]:after {
-    color: #cc080a !important;
-    padding-right: 5px;
-}
-ul li.list-group-item a.kentest[href$=".pdf"]:after,
-.page-sidebar a.kentest[href$=".pdf"]:after,
-a.kentest.btn[href$=".pdf"]:after {
-    content: "";
-    padding-left: 0;
 }

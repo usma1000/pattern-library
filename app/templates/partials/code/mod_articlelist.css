@@ -1,0 +1,133 @@
+.search-content-1 .search-container>ul .search-item>.search-content>.search-title {
+    font-size: 24px;
+    margin: 0 0 5px;
+    font-weight: 600;
+}
+.search-content-1 .search-container,
+.search-content-2 .search-container {
+    margin-bottom: 22px;
+}
+#homepage-basic .search-content-1 .search-container>ul .search-item>.search-content>.search-title>a,
+#homepage-sidebar .search-content-1 .search-container>ul .search-item>.search-content>.search-title>a {
+    color: #0a304e;
+}
+.search-content-1 .search-container>ul .search-item>.search-content>.search-title>a {
+    color: #3168a6;
+}
+.search-content-1 .search-container>ul .search-item>.search-content>.search-title>a:hover,
+.search-content-1 .search-container>ul .search-item>.search-content>.search-title>a:focus {
+    color: #3168a6;
+    text-decoration: underline;
+}
+.search-content-1 .search-container>ul .search-item>.search-content>.search-date {
+    color: #0a304e;
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.search-content-1 .search-container>ul .search-item>.search-content>.search-desc {
+    color: #444444;
+    font-size: 20px;
+    margin: 0;
+}
+.search-content-1 .search-container>ul .search-item {
+    padding: 20px 0;
+    border-bottom: 0;
+}
+#homepage-basic .search-content-1 .search-container>ul .search-item,
+#homepage-sidebar .search-content-1 .search-container>ul .search-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+#homepage-basic .search-content-1 .search-container>ul .search-item:last-child,
+#homepage-basic .search-content-1 .search-container>ul .search-item:last-child {
+    border: 1px solid #eeeeee;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.search-page .search-pagination>.pagination>li>a {
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+}
+.search-page .search-pagination>.pagination>li>a:hover,
+.search-page .search-pagination>.pagination>li>a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3168a6;
+}
+.search-page .search-pagination>.pagination>.page-active>a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0a304e;
+}
+.search-page .search-pagination>.pagination>.page-active>a:hover,
+.search-page .search-pagination>.pagination>.page-active>a:focus {
+    text-decoration: none;
+    color: #eee;
+    background-color: #0a304e;
+    cursor: default;
+}
+.search-content-1 .search-container>ul .search-item>.no-thumbnail {
+    padding-left: 0px;
+}
+.search-content-1 .search-container>ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 20px;
+}
+.search-page .search-pagination {
+    text-align: left;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #ffffff;
+    background-color: #3168a6;
+}
+#homepage-basic .search-content-1.search-last .search-container>ul .search-item:last-child,
+#homepage-sidebar .search-content-1.search-last .search-container>ul .search-item:last-child {
+    border: 0px solid #eeeeee;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#homepage-basic .search-content-1.search-last .search-container,
+#homepage-sidebar .search-content-1.search-last .search-container {
+    margin-bottom: 0;
+}
+#homepage-basic .search-content-1.search-last .search-container>ul .search-item:last-child,
+#homepage-sidebar .search-content-1.search-last .search-container>ul .search-item:last-child {
+    padding-bottom: 0;
+}
+#homepage-basic .search-content-1.search-last .search-container>ul .search-item:last-child > .search-content p:last-child,
+#homepage-basic .search-content-1.search-last .search-container>ul .search-item:last-child > .search-content p:last-child {
+    margin-bottom: 0;
+}
+@media (max-width: 991px) {
+    .pagination-lg > li > a,
+    .pagination-lg > li > span {
+        padding: 8px 13px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 767px) {
+    .pagination-lg > li > a,
+    .pagination-lg > li > span {
+        padding: 6px 11px;
+        font-size: 13px;
+    }
+    .search-page .search-pagination {
+        text-align: center;
+    }
+}

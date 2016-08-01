@@ -10,6 +10,7 @@
 		{% include 'partials/colorpalette.nunjucks' %}
 		{% include 'partials/typography.nunjucks' %}
 		{% include 'partials/buttons.nunjucks' %}
+		{% include 'partials/well.nunjucks' %}
 	</main>
 </div>
 {% endblock %}

@@ -301,7 +301,56 @@
 		Show CSS
 	</a>
 	<div class="collapse" id="collapsemod_accordioncss">
-		<pre class="copytoclipboard"><code class="language-css line-numbers">/*INSERT CSS HERE*/</code></pre>
+		<pre class="copytoclipboard"><code class="language-css line-numbers">.accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAARCAYAAADtyJ2fAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6M0I3REQ4MzYzMjcwMTFFNjlFQ0U4QkRDRERBOTlCQzciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6M0I3REQ4MzUzMjcwMTFFNjlFQ0U4QkRDRERBOTlCQzciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM3MkM0MTZGM0M1MTFFNUI2MUNBRURGMkMyRTQ4QkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM3MkM0MTdGM0M1MTFFNUI2MUNBRURGMkMyRTQ4QkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5QpSClAAAAYElEQVR42mL8//8/AzmAiYFMMNQ0chv6/wdhQoqR1TFyGfihaPh6fiMjLk0oNqIrxGYzuhhIDxM2W5AVYtMEdipyAiDkT2QLmIjxHzY5JkIKcIkxETIdlysYR0AiBwgwABbuN4lWwK0JAAAAAElFTkSuQmCC) left no-repeat;
+    margin-left: 15px;
+    margin-right: 0;
+    padding-left: 25px;
+}
+.accordion .panel .panel-title .accordion-toggle.accordion-toggle-styled.collapsed {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAARCAYAAADtyJ2fAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzEwRTk3N0IzMjcwMTFFNjhDNEFBRjMwMzFGMjVEMjciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzEwRTk3N0EzMjcwMTFFNjhDNEFBRjMwMzFGMjVEMjciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM3MkM0MTZGM0M1MTFFNUI2MUNBRURGMkMyRTQ4QkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM3MkM0MTdGM0M1MTFFNUI2MUNBRURGMkMyRTQ4QkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5Etn1qAAAAY0lEQVR42mL8//8/AzmAkVyNTOgC3Ib+/0m2EVnT1/MbGUmykVibMfyIrgGXzVgDhxjNOEOVkGa80YFPMxMDmYC6TiUrcMiKDmI14Q0cQkmOAWQjMuYy8PuPLoYNk52tAAIMAL8qddv26/mOAAAAAElFTkSuQmCC) left no-repeat;
+    margin-left: 15px;
+    margin-right: 0;
+    padding-left: 25px;
+}
+.accordion .panel-title {
+    font-size: 20px;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+.panel-heading {
+    color: #0a304e !important;
+}
+.panel .panel-body {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 0;
+}
+.panel-body-height {
+    overflow-y: auto;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.panel-group {
+    border-bottom: 1px solid #d5d5d5;
+}
+.panel .panel-body > p:first-of-type,
+.panel .panel-body > h1:first-of-type,
+.panel .panel-body > h2:first-of-type,
+.panel .panel-body > h3:first-of-type,
+.panel .panel-body > h4:first-of-type,
+.panel .panel-body > h5:first-of-type,
+.panel .panel-body > h6:first-of-type {
+    margin-top: 5px !important;
+}
+p + .sub-accordion,
+ol + .sub-accordion,
+ul + .sub-accordion {
+    margin-top: 25px;
+}</code></pre>
 	</div>
 
 	
@@ -310,7 +359,11 @@
 		Show JS
 	</a>
 	<div class="collapse" id="collapsemod_accordionjs">
-		<pre class="copytoclipboard"><code class="language-js line-numbers">// INSERT JS HERE</code></pre>
+		<pre class="copytoclipboard"><code class="language-js line-numbers">var handleAccordions = function() {
+    $('body').on('shown.bs.collapse', '.accordion.scrollable', function(e) {
+        App.scrollTo($(e.target));
+    });
+};</code></pre>
 	</div>
 
 </section>
@@ -901,6 +954,107 @@
 </code></pre>
 	</div>
 
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_tablecss" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapsemod_tablecss">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">.table-bordered,
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #fff;
+}
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    background-color: #0a304e;
+    color: #fff;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 15px;
+}
+table.table-striped {
+    background-color: #f0f0f0;
+}
+.table>thead>tr>th {
+    font-size: 22px;
+    font-weight: 600;
+}
+.table>tbody>tr>td {
+    font-size: 20px;
+    font-weight: 400;
+}
+.table>tbody>tr.highlight>td {
+    background-color: #bed7ea;
+    color: #444;
+}
+.table>tbody>tr.highlight-danger>td {
+    background-color: #e2a9a9;
+    color: #444;
+}
+.table>tbody>tr.highlight-warning>td {
+    background-color: #e4daad;
+    color: #444;
+}
+.table>tbody>tr.highlight-success>td {
+    background-color: #8cd58c;
+    color: #444;
+}
+.table>tbody>tr.highlight>td>a,
+.table>tbody>tr.highlight-danger>td>a,
+.table>tbody>tr.highlight-success>td>a,
+.table>tbody>tr.highlight-warning>td>a {
+    color: #0a304e;
+}
+.table-bordered {
+    font-size: 19px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #dedede !important;
+}
+.table-hover>tbody>tr.highlight:hover>td>a,
+.table-hover>tbody>tr.highlight-success:hover>td>a,
+.table-hover>tbody>tr.highlight-danger:hover>td>a,
+.table-hover>tbody>tr.highlight-warning:hover>td>a {
+    color: #0a304e !important;
+}
+div.side-scroll {
+    display: block;
+    overflow-x: auto;
+}
+div.side-scroll>table {
+    min-width: 600px;
+}
+@media (min-width: 991px) {
+    .table-hover>tbody>tr:hover>td {
+        background-color: #fff;
+        color: #444;
+    }
+    .table-hover>tbody>tr.highlight:hover>td,
+    .table-hover>tbody>tr.highlight-success:hover>td,
+    .table-hover>tbody>tr.highlight-danger:hover>td,
+    .table-hover>tbody>tr.highlight-warning:hover>td {
+        background-color: #fff;
+        color: #444;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .flip-scroll th,
+    .flip-scroll .table-bordered.flip-content tbody tr td {
+        font-size: 18px!important;
+    }
+}</code></pre>
+	</div>
+
 </section>
 		<h2 class="pattern-header" id="tabs">Tabs</h2>
 <section class="pattern-section">
@@ -1021,6 +1175,87 @@
     &lt;/div>
   &lt;/div>
 &lt;/section></code></pre>
+	</div>
+
+	
+	
+	<a class="show-code" role="button" data-toggle="collapse" href="#collapsemod_tabcss" aria-expanded="false" aria-controls="collapseExample">
+		Show CSS
+	</a>
+	<div class="collapse" id="collapsemod_tabcss">
+		<pre class="copytoclipboard"><code class="language-css line-numbers">.tab-pane {
+    font-size: 20px;
+    padding-left: 19px;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #ffffff;
+    background-color: #626262;
+    border: 1px solid #626262;
+}
+.nav-tabs>li>a {
+    color: #3168a6;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #626262;
+}
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    color: #0a304e;
+    background-color: #dedede;
+    border-bottom: 1px solid #626262;
+}
+.nav-tabs>li {
+    min-width: 150px;
+}
+.nav-tabs>li.tabdrop {
+    min-width: 10px;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+}
+.nav>li>a {
+    padding: 14px 20px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #626262;
+}
+.nav-pills>li>a,
+.nav-tabs>li>a {
+    font-size: 18px;
+    font-weight: 600;
+}
+.tabbable-tabdrop .dropdown-menu>li>a {
+    padding: 8px 16px;
+    color: #3168a6;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+.tabbable-tabdrop .dropdown-menu>li>a:hover,
+.tabbable-tabdrop .dropdown-menu>li>a:focus {
+    color: #0a304e;
+    background-color: #eeeeee;
+}
+.tabbable {
+    margin-bottom: 20px;
+}
+.dropdown-menu {
+    box-shadow: 2px 5px 2px 4px rgba(0, 0, 0, .1);
+}
+@media (max-width: 991px) {
+    .nav-tabs>li {
+        min-width: 100px;
+    }
+}
+@media (max-width: 767px) {
+    .nav-tabs>li {
+        min-width: auto;
+    }
+}</code></pre>
 	</div>
 
 </section>
