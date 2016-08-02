@@ -1,4 +1,3 @@
-// Handles portlet tools & actions
 var handlePortletTools = function() {
     // handle portlet remove
     $('body').on('click', '.portlet > .portlet-title > .tools > a.remove', function(e) {
@@ -105,3 +104,31 @@ var handlePortletTools = function() {
         }
     });
 };
+
+// Handles Bootstrap Tooltips.
+  var handleTooltips = function() {
+      // global tooltips
+      $('.tooltips').tooltip();
+
+      // portlet tooltips
+      $('.portlet > .portlet-title .fullscreen').tooltip({
+          container: 'body',
+          title: 'Fullscreen'
+      });
+      $('.portlet > .portlet-title > .tools > .reload').tooltip({
+          container: 'body',
+          title: 'Reload'
+      });
+      $('.portlet > .portlet-title > .tools > .remove').tooltip({
+          container: 'body',
+          title: 'Remove'
+      });
+      $('.portlet > .portlet-title > .tools > .config').tooltip({
+          container: 'body',
+          title: 'Settings'
+      });
+      $('.portlet > .portlet-title > .tools > .collapse, .portlet > .portlet-title > .tools > .expand').tooltip({
+          container: 'body',
+          title: 'Collapse/Expand'
+      });
+  };

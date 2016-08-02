@@ -6,4 +6,5 @@
 	{% import 'partials/showcode.nunjucks' as showcode %}
 	{{ showcode.showmarkup("mod_tab") }}
 	{{ showcode.showcss("mod_tab") }}
+	{{ showcode.showjs("mod_tab") }}
 </section>
