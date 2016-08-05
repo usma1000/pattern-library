@@ -74,7 +74,7 @@
                                 <section class="sub-feed">
                                   <h2 class="sr-only" tabindex="0">Generic sidebar content</h2>
                                   <div class="portlet box gray-light">
-                                    <div class="portlet-title fullscreen">
+                                    <div class="portlet-title">
                                       <div class="caption"> section title </div>
                                     </div>
                                     <div class="portlet-body">
@@ -279,6 +279,34 @@ main section.sub-feed .portlet .portlet-body ol {
         }
     });
 };
+
+// Handles Bootstrap Tooltips.
+  var handleTooltips = function() {
+      // global tooltips
+      $('.tooltips').tooltip();
+
+      // portlet tooltips
+      $('.portlet > .portlet-title .fullscreen').tooltip({
+          container: 'body',
+          title: 'Fullscreen'
+      });
+      $('.portlet > .portlet-title > .tools > .reload').tooltip({
+          container: 'body',
+          title: 'Reload'
+      });
+      $('.portlet > .portlet-title > .tools > .remove').tooltip({
+          container: 'body',
+          title: 'Remove'
+      });
+      $('.portlet > .portlet-title > .tools > .config').tooltip({
+          container: 'body',
+          title: 'Settings'
+      });
+      $('.portlet > .portlet-title > .tools > .collapse, .portlet > .portlet-title > .tools > .expand').tooltip({
+          container: 'body',
+          title: 'Collapse/Expand'
+      });
+  };
 </code></pre>
 	</div>
 
@@ -336,13 +364,13 @@ main section.sub-feed .portlet .portlet-body ol {
     &lt;/div>
 &lt;/aside>
 &lt;section class="user-content sub-text">
-&lt;span class="profile-title">
-  &lt;p>Associate Professor, Otolaryngology&lt;/p>
-  &lt;p>Associate Professor, Genetics and Genome Sciences&lt;/p>
-  &lt;p>Assistant Professor, Neurosciences&lt;/p>
-  &lt;p>Instructor, Pediatrics&lt;/p>
-&lt;/span>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, molestie nec est et, sodales congue nunc. Sed viverra odio non odio congue, ut scelerisque metus interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, molestie nec est et, sodales congue nunc. Sed viverra odio non odio congue, ut scelerisque metus interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, molestie nec est et, sodales congue nunc. Sed viverra odio non odio congue, ut scelerisque metus interdum.&lt;/p>
+  &lt;span class="profile-title">
+    &lt;p>Associate Professor, Otolaryngology&lt;/p>
+    &lt;p>Associate Professor, Genetics and Genome Sciences&lt;/p>
+    &lt;p>Assistant Professor, Neurosciences&lt;/p>
+    &lt;p>Instructor, Pediatrics&lt;/p>
+  &lt;/span>
+  &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, molestie nec est et, sodales congue nunc. Sed viverra odio non odio congue, ut scelerisque metus interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, molestie nec est et, sodales congue nunc. Sed viverra odio non odio congue, ut scelerisque metus interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo nisi, molestie nec est et, sodales congue nunc. Sed viverra odio non odio congue, ut scelerisque metus interdum.&lt;/p>
 &lt;/section>
 </code></pre>
 	</div>
