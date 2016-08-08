@@ -1,0 +1,19 @@
+<h2 class="pattern-header" id="skeleton">Skeleton</h2>
+<section class="pattern-section">
+	<p class="pattern-text"><strong>Utility CSS Classes</strong></p>
+  <pre class="copytoclipboard">
+    <code class="language-markup">
+      &lt;body class="page-container-bg-solid page-boxed page-header-menu-fixed-no-department site-name-alt">
+    </code>
+  </pre>
+  <p class="pattern-text"><code>.page-header-menu-fixed</code> Used when the page includes the department name/link box above the navigation.</p>
+  <p class="pattern-text"><code>.page-header-menu-fixed-alt</code> Used when the page includes the department name/link box above the navigation AND site-name-alt is used.</p>
+  <p class="pattern-text"><code>.page-header-menu-fixed-no-department</code> Used when the page excludes the department name/link box above the navigation.</p>
+  <p class="pattern-text"><code>.page-header-menu-fixed-no-department-alt</code> Used when the page excludes the department name/link box above the navigation AND site-name-alt is used.</p>
+  <p class="pattern-text"><code>.site-name-alt</code> Displays the Site Name/School Name in a smaller font to account for it being on two lines, also modifies the padding of the header search box.</p>
+  <p class="pattern-text"><code>.has-department</code> This class is required if the dark gray Department tab is displayed in the header, as CSS based on it changes the padding of the header search box.</p>
+  <p class="pattern-text"><code>.has-sidebar</code> This class.</p>
+  <p class="pattern-text"><code>.has-breadcrumbs</code> This class.</p>
+  <p class="pattern-text"><code>.has-hero</code> This class.</p>
+  <p class="pattern-text"><code>.page-fluid</code> Used on page layouts that are not boxed.</p>
+</section>
